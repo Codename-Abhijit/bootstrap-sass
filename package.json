@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap_sass",
+  "version": "1.0.0",
+  "description": "Building Portfolio with Bootstrap and sass",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "Bootstrap",
+    "sass",
+    "portfolio"
+  ],
+  "author": "Abhijit",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.52.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.1",
+    "autoprefixer": "^10.4.7",
+    "bootstrap": "^5.2.0-beta1",
+    "postcss-cli": "^9.1.0"
+  }
+}
